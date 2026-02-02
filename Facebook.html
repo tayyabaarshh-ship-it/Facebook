@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Signup</title>
+  <style>
+    body {
+  font-family: Arial;
+  background: #f0f2f5;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left h1 {
+  color: #1877f2;
+  font-size: 50px;
+}
+
+.right {
+  background: #fff;
+  padding: 20px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  background: #42b72a;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left">
+      <h1>facebook</h1>
+      <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+
+    <div class="right">
+      <h2>Sign Up</h2>
+      <p>It's free and always will be.</p>
+
+      <input placeholder="First name">
+      <input placeholder="Last name">
+      <input placeholder="Email">
+      <input placeholder="Re-enter email">
+      <input type="password" placeholder="New password">
+
+      <button>Sign Up</button>
+    </div>
+  </div>
+</body>
+</html>
